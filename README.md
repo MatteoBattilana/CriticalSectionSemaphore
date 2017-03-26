@@ -2,7 +2,7 @@
 Copyright 2017 Matteo Battilana - Released under GPL v3 License
 
 ## Description
-This is a C++11 implementation of the critical section without busywait. This is not the struct version with a PCB list.
+This is a C++11 implementation of the critical section with busywait. This is not the struct version with a PCB list.
 
 You can compile this project with:
 ```bash

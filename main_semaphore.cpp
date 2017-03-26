@@ -4,8 +4,8 @@
 #include <ctime>
 #include "integer_semaphore.h"
 
-#define SEMNUMBER 3
-#define NUMTHREAD 10
+#define SEMNUMBER 1
+#define NUMTHREAD 100
 #define SLEEPTIMEMAX 4000
 #define SLEEPTIMEMIN 200
 
