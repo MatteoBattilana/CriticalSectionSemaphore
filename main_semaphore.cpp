@@ -1,6 +1,5 @@
 #include <iostream>
 #include <thread>
-
 #include <pthread.h>
 #include <ctime>
 #include "integer_semaphore.h"
@@ -13,7 +12,6 @@
 using namespace std;
 
 void *PrintHello(void *threadid);
-
 
 static IntegerSemaphore integerSemaphore;	
 
@@ -41,7 +39,6 @@ void *PrintHello(void *threadid)
 {
 	long tid;
 	tid = (long)threadid;
-	
 	
 	while(true){
 		

@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 void IntegerSemaphore::Init(int value){
 	s = value;
 	delay.Init(false);
