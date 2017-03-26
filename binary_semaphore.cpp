@@ -1,7 +1,6 @@
 #include <atomic>
 #include <thread>
 #include "binary_semaphore.h"
-#define LOWCPUUSAGE 10
 
 void BinarySemaphore::Init(bool value){
 	s = value;

@@ -1,5 +1,6 @@
 #ifndef BINARYSEMAPHORE_H
 #define BINARYSEMAPHORE_H
+#define LOWCPUUSAGE 10
 #include <atomic>
 class BinarySemaphore
 {
