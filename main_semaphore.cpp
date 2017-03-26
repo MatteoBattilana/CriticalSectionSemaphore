@@ -5,7 +5,7 @@
 #include "integer_semaphore.h"
 
 #define SEMNUMBER 1
-#define NUMTHREAD 100
+#define NUMTHREAD 6
 #define SLEEPTIMEMAX 4000
 #define SLEEPTIMEMIN 200
 
