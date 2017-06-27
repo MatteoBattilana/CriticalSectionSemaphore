@@ -3,10 +3,8 @@
 
 using namespace std;
 
-void IntegerSemaphore::Init(int value){
+IntegerSemaphore::IntegerSemaphore(int value) : mutex(true), delay(false) {
 	s = value;
-	delay.Init(false);
-	mutex.Init(true);
 }
 
 void IntegerSemaphore::P(){

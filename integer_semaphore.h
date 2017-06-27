@@ -8,7 +8,7 @@ class IntegerSemaphore
 		BinarySemaphore mutex;
 		BinarySemaphore delay;
 	public:
-		void Init(int value);
+		IntegerSemaphore(int value);
 		void P();
 		void V();
 };

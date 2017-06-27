@@ -2,7 +2,7 @@
 #include <thread>
 #include "binary_semaphore.h"
 
-void BinarySemaphore::Init(bool value){
+BinarySemaphore::BinarySemaphore(bool value){
 	s = value;
 }
 

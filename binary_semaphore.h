@@ -7,7 +7,7 @@ class BinarySemaphore
 	private:
 		std::atomic<bool> s;
 	public:
-		void Init(bool value);
+		BinarySemaphore(bool value);
 		void P();
 		void V();
 };
