@@ -19,6 +19,7 @@ There are two small examples:
 
 #### alternate.cpp
 This is the the base syncronization problem. There are two thread, `A` and `B` that runs alternately.
+
 You can compile only this example with:
 
 ```bash
@@ -36,6 +37,7 @@ SEMNUMBER | Number of integer semaphores
 NUMTHREAD | Number of running thread
 SLEEPTIMEMAX | Max random sleep range
 SLEEPTIMEMIN | Min random sleep range
+
 You can compile only this example with:
 
 ```bash
@@ -43,5 +45,5 @@ make mutex_lock
 ```
 
 
-## Description
+## Information
 In the `binary_semaphore.h` you can set the `LOWCPUUSAGE` macro. This has been added in order to avoid 100% of the CPU usage during the threads wait. I've also added a sleep in the `V` method because a thread can exit from its critical section and go ahead the others, that are doing the `LOWCPUUSAGE` sleep time.
